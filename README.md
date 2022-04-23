@@ -1,1 +1,1 @@
-# RabbitMQ-with-GO
+# RabbitMQ with GO

@@ -8,7 +8,7 @@ type Service interface {
 	Publish(message string) error
 }
 
-// RabbitMQ -
+// RabbitMQ - struct
 type RabbitMQ struct {
 	Conn    *amqp.Connection
 	Channel *amqp.Channel

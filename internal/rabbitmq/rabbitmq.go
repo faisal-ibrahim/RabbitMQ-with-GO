@@ -2,7 +2,7 @@ package rabbitmq
 
 import "github.com/streadway/amqp"
 
-// Service -
+// Service -struct
 type Service interface {
 	Connect() error
 	Publish(message string) error

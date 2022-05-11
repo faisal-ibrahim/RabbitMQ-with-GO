@@ -13,3 +13,8 @@ type RabbitMQ struct {
 	Conn    *amqp.Connection
 	Channel *amqp.Channel
 }
+
+// NewRabbitMQService - returns a pointer to a new RabbitMQ service
+func NewRabbitMQService() *RabbitMQ {
+	return &RabbitMQ{}
+}

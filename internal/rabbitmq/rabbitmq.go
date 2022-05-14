@@ -16,6 +16,5 @@ type RabbitMQ struct {
 
 // NewRabbitMQService - returns a pointer to a new RabbitMQ service
 func NewRabbitMQService() *RabbitMQ {
-
 	return &RabbitMQ{}
 }

@@ -35,7 +35,7 @@ func (r *RabbitMQ) Publish(message string) error {
 		return err
 	}
 
-	fmt.Println("Successfully Published Message to Queue")
+	fmt.Println("Successfully Published Message to Queue.")
 	return nil
 }
 
